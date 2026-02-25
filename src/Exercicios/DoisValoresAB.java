@@ -13,8 +13,17 @@ public class DoisValoresAB {
     static void main() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o valor da variável A: ");
+        while (!scanner.hasNextInt()) {
+            System.out.println("Erro: Isso não é um número inteiro. Tente novamente:");
+            scanner.next();
+        }
         int a = scanner.nextInt();
+
         System.out.println("Digite o valor da variável B: ");
+        while (!scanner.hasNextInt()) {
+            System.out.println("Erro: Isso não é um número inteiro. Tente novamente:");
+            scanner.next();
+        }
         int b = scanner.nextInt();
 
         if (a == b) {
