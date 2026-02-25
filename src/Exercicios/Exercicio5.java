@@ -6,7 +6,7 @@ import java.util.Scanner;
 //
 //usuário ganha e imprima na tela o resultado. (Base para o Salário mínimo R$ 1.293,20).
 
-public class QuantidadeSalario {
+public class Exercicio5 {
     static void main() {
             double salarioMinimo = 1293.20;
 

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 
-public class SomaTest01 {
+public class Exercicio1 {
     static void main() {
         Scanner input1 = new Scanner(System.in);
         System.out.println("Digite o valor de A: ");
@@ -35,7 +35,7 @@ public class SomaTest01 {
         System.out.println("Digite o valor de C: ");
         double n3 = input2.nextDouble();
 
-        CalcSomaTest01 calculadora = new CalcSomaTest01(n1, n2, n3);
+        CalculadoraExercicio1 calculadora = new CalculadoraExercicio1(n1, n2, n3);
 
         calculadora.verificaSomaC();
     }

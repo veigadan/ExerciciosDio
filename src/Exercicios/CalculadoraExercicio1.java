@@ -1,11 +1,11 @@
 package Exercicios;
 
-public class CalcSomaTest01 {
+public class CalculadoraExercicio1 {
     private double a;
     private double b;
     private double c;
 
-    public CalcSomaTest01(double a, double b, double c) {
+    public CalculadoraExercicio1(double a, double b, double c) {
         setA(a);
         setB(b);
         setC(c);

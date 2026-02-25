@@ -9,7 +9,7 @@ import java.util.Scanner;
 //imprimir seu valor na tela.
 
 
-public class DoisValoresAB {
+public class Exercicio3 {
     static void main() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o valor da variável A: ");

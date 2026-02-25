@@ -5,7 +5,7 @@ import java.util.Scanner;
 //2 - Faça um algoritmo para receber um número qualquer e imprimir na tela se o número é par ou ímpar, positivo ou negativo.
 
 
-public class NumParImpPosNeg {
+public class Exercicio2 {
     static void main() {
         Scanner scanner = new Scanner(System.in);
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 //4 - Faça um algoritmo que receba um número inteiro e imprima na tela o seu antecessor e o seu sucessor.
 
 
-public class IntAntSuc {
+public class Exercicio4 {
     static void main() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o número inteiro desejado: ");
