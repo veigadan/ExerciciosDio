@@ -17,11 +17,7 @@ public class Exercicio10 {
         double media = (nota1 + nota2 + nota3) / 3;
 
         System.out.printf("Sua média final é: %.2f \n", media);
-        if (media >= 7){
-            System.out.println("Parabéns, você foi aprovado!");
-        } else {
-            System.out.println("Você ficou de recuperação.");
-        }
+
         scanner.close();
     }
 }
